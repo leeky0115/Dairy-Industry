@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: 코드 체크아웃
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Python 설치
         uses: actions/setup-python@v5
@@ -32,6 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add src/data/dairyData.json
           git diff --staged --quiet || git commit -m "자동 갱신: $(date '+%Y년 %m월') 낙농 통계 업데이트"
-          git push
+          git push origin main

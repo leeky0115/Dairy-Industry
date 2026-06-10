@@ -14,7 +14,11 @@ function TradeTab({ data }) {
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
         <ImportExportTable data={data.importExport} />
-        <DairyChart title="수출입 추세 (만톤)" data={data.productionTrend} lines={[{ key: 'value', name: '수입', color: '#ef4444' }]} />
+        <DairyChart
+          title="소매가 추세 (원/1L)"
+          data={data.priceTrend}
+          lines={[{ key: 'retail', name: '소매가', color: '#ef4444' }]}
+        />
       </div>
     </div>
   );

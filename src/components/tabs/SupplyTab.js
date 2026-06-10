@@ -13,8 +13,19 @@ function SupplyTab({ data }) {
         <KpiCard title="수급 균형률" value="98.4" unit="%" yoy={0.2} />
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
-        <DairyChart title="원유 수급 추세 (만톤)" data={data.productionTrend} lines={[{ key: 'value', name: '공급량', color: '#3b82f6' }]} />
-        <DairyChart title="용도별 원유 사용실적" data={data.priceTrend} lines={[{ key: 'rawMilk', name: '시유', color: '#10b981' }, { key: 'retail', name: '가공유', color: '#f59e0b' }]} />
+        <DairyChart
+          title="원유 생산량 추세 (톤)"
+          data={data.productionTrend}
+          lines={[{ key: 'rawMilkTon', name: '공급량', color: '#3b82f6' }]}
+        />
+        <DairyChart
+          title="원유가 추세 (원/kg)"
+          data={data.priceTrend}
+          lines={[
+            { key: 'rawMilk', name: '시유', color: '#10b981' },
+            { key: 'retail', name: '가공유', color: '#f59e0b' }
+          ]}
+        />
       </div>
     </div>
   );

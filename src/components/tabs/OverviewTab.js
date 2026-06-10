@@ -14,8 +14,19 @@ function OverviewTab({ data }) {
         <KpiCard title="시유 소매가" value={data.kpi.retailPrice.value} unit={data.kpi.retailPrice.unit} yoy={data.kpi.retailPrice.yoy} />
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px', marginBottom: '20px' }}>
-        <DairyChart title="원유 생산량 추세 (만톤)" data={data.productionTrend} lines={[{ key: 'value', name: '생산량', color: '#3b82f6' }]} />
-        <DairyChart title="원유가 vs 소매가 추세 (원)" data={data.priceTrend} lines={[{ key: 'rawMilk', name: '원유가', color: '#10b981' }, { key: 'retail', name: '소매가', color: '#ef4444' }]} />
+        <DairyChart
+          title="원유 생산량 추세 (톤)"
+          data={data.productionTrend}
+          lines={[{ key: 'rawMilkTon', name: '생산량', color: '#3b82f6' }]}
+        />
+        <DairyChart
+          title="원유가 vs 소매가 추세 (원)"
+          data={data.priceTrend}
+          lines={[
+            { key: 'rawMilk', name: '원유가', color: '#10b981' },
+            { key: 'retail', name: '소매가', color: '#ef4444' }
+          ]}
+        />
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
         <AlertPanel alerts={data.alerts} />

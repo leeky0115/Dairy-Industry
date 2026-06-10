@@ -13,8 +13,16 @@ function LivestockTab({ data }) {
         <KpiCard title="검정 참여율" value="62.4" unit="%" yoy={0.8} />
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
-        <DairyChart title="젖소 사육두수 추세 (만두)" data={data.productionTrend} lines={[{ key: 'value', name: '사육두수', color: '#8b5cf6' }]} />
-        <DairyChart title="사육 농가수 추세 (호)" data={data.productionTrend} lines={[{ key: 'value', name: '농가수', color: '#f59e0b' }]} />
+        <DairyChart
+          title="젖소 사육두수 추세 (만두)"
+          data={data.livestockTrend}
+          lines={[{ key: 'cowCount', name: '사육두수', color: '#8b5cf6' }]}
+        />
+        <DairyChart
+          title="사육 농가수 추세"
+          data={data.livestockTrend}
+          lines={[{ key: 'farmCount', name: '농가수', color: '#f59e0b' }]}
+        />
       </div>
     </div>
   );

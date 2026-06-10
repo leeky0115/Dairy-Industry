@@ -12,8 +12,16 @@ function DistributionTab({ data }) {
         <KpiCard title="분유 재고량" value="2.4" unit="만톤" yoy={-3.1} />
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
-        <DairyChart title="우유 소비량 추세 (kg/인)" data={data.productionTrend} lines={[{ key: 'value', name: '소비량', color: '#ec4899' }]} />
-        <DairyChart title="분유 재고 추세 (만톤)" data={data.productionTrend} lines={[{ key: 'value', name: '재고량', color: '#f59e0b' }]} />
+        <DairyChart
+          title="소매가 추세 (원/1L)"
+          data={data.priceTrend}
+          lines={[{ key: 'retail', name: '소매가', color: '#ec4899' }]}
+        />
+        <DairyChart
+          title="원유 생산량 추세 (톤)"
+          data={data.productionTrend}
+          lines={[{ key: 'rawMilkTon', name: '생산량', color: '#f59e0b' }]}
+        />
       </div>
     </div>
   );

@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
           fetch-depth: 0
 
       - name: Python 설치
@@ -35,7 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add src/data/dairyData.json
           git diff --staged --quiet || git commit -m "자동 갱신: $(date '+%Y년 %m월') 낙농 통계 업데이트"
-          git push origin main
+          git push --force-with-lease origin main

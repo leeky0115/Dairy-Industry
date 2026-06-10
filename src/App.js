@@ -4,16 +4,49 @@ import DairyChart from './components/DairyChart';
 import AlertPanel from './components/AlertPanel';
 import ImportExportTable from './components/ImportExportTable';
 import dairyData from './data/dairyData.json';
+import { fetchCowCount, fetchMilkProduction } from './data/fetchKosis';
 
 function App() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(dairyData);
   const [lastUpdated] = useState('2026.06');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setData(dairyData);
+    async function loadData() {
+      try {
+        const [cowData, milkData] = await Promise.all([
+          fetchCowCount(),
+          fetchMilkProduction()
+        ]);
+
+        if (cowData && milkData) {
+          setData(prev => ({
+            ...prev,
+            kpi: {
+              ...prev.kpi,
+              cowCount: {
+                value: cowData[0]?.DT ? parseFloat(cowData[0].DT / 10000).toFixed(1) : prev.kpi.cowCount.value,
+                unit: '만두',
+                yoy: prev.kpi.cowCount.yoy
+              },
+              milkProduction: {
+                value: milkData[0]?.DT ? parseFloat(milkData[0].DT / 10000).toFixed(1) : prev.kpi.milkProduction.value,
+                unit: '만톤',
+                yoy: prev.kpi.milkProduction.yoy
+              }
+            }
+          }));
+        }
+      } catch (error) {
+        console.error('데이터 로딩 오류:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadData();
   }, []);
 
-  if (!data) return (
+  if (loading) return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <p style={{ color: '#6b7280' }}>데이터 불러오는 중...</p>
     </div>

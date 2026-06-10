@@ -33,7 +33,16 @@ jobs:
         run: python scripts/fetch_kosis.py
 
       - name: 변경사항 커밋 & 푸시
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "자동 갱신: 낙농 통계 업데이트"
-          file_pattern: src/data/dairyData.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --hard origin/main
+          python scripts/fetch_kosis.py
+          git add src/data/dairyData.json
+          git diff --staged --quiet || git commit -m "자동 갱신: $(date '+%Y년 %m월') 낙농 통계 업데이트"
+          git push origin main
+        env:
+          KOSIS_API_KEY: ${{ secrets.KOSIS_API_KEY }}
+          KAMIS_API_KEY: ${{ secrets.KAMIS_API_KEY }}
+          KAMIS_ID: ${{ secrets.KAMIS_ID }}

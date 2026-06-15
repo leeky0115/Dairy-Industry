@@ -1043,7 +1043,530 @@
       "호당생산량": 30
     }
   ],
-  "supplyMonthly": [],
+  "supplyMonthly": [
+    {
+      "year": "2019",
+      "month": "1",
+      "label": "2019-01",
+      "domesticProduction": 160
+    },
+    {
+      "year": "2019",
+      "month": "2",
+      "label": "2019-02",
+      "domesticProduction": 783
+    },
+    {
+      "year": "2019",
+      "month": "3",
+      "label": "2019-03",
+      "domesticProduction": 157
+    },
+    {
+      "year": "2019",
+      "month": "4",
+      "label": "2019-04",
+      "domesticProduction": 1
+    },
+    {
+      "year": "2019",
+      "month": "5",
+      "label": "2019-05",
+      "domesticProduction": 162
+    },
+    {
+      "year": "2019",
+      "month": "6",
+      "label": "2019-06",
+      "domesticProduction": 866
+    },
+    {
+      "year": "2019",
+      "month": "7",
+      "label": "2019-07",
+      "domesticProduction": 156
+    },
+    {
+      "year": "2019",
+      "month": "8",
+      "label": "2019-08",
+      "domesticProduction": 199
+    },
+    {
+      "year": "2019",
+      "month": "9",
+      "label": "2019-09",
+      "domesticProduction": 161
+    },
+    {
+      "year": "2019",
+      "month": "10",
+      "label": "2019-10",
+      "domesticProduction": 727
+    },
+    {
+      "year": "2019",
+      "month": "11",
+      "label": "2019-11",
+      "domesticProduction": 162
+    },
+    {
+      "year": "2019",
+      "month": "12",
+      "label": "2019-12",
+      "domesticProduction": 135
+    },
+    {
+      "year": "2020",
+      "month": "1",
+      "label": "2020-01",
+      "domesticProduction": 150
+    },
+    {
+      "year": "2020",
+      "month": "2",
+      "label": "2020-02",
+      "domesticProduction": 347
+    },
+    {
+      "year": "2020",
+      "month": "3",
+      "label": "2020-03",
+      "domesticProduction": 170
+    },
+    {
+      "year": "2020",
+      "month": "4",
+      "label": "2020-04",
+      "domesticProduction": 958
+    },
+    {
+      "year": "2020",
+      "month": "5",
+      "label": "2020-05",
+      "domesticProduction": 166
+    },
+    {
+      "year": "2020",
+      "month": "6",
+      "label": "2020-06",
+      "domesticProduction": 134
+    },
+    {
+      "year": "2020",
+      "month": "7",
+      "label": "2020-07",
+      "domesticProduction": 169
+    },
+    {
+      "year": "2020",
+      "month": "8",
+      "label": "2020-08",
+      "domesticProduction": 838
+    },
+    {
+      "year": "2020",
+      "month": "9",
+      "label": "2020-09",
+      "domesticProduction": 159
+    },
+    {
+      "year": "2020",
+      "month": "10",
+      "label": "2020-10",
+      "domesticProduction": 379
+    },
+    {
+      "year": "2020",
+      "month": "11",
+      "label": "2020-11",
+      "domesticProduction": 161
+    },
+    {
+      "year": "2020",
+      "month": "12",
+      "label": "2020-12",
+      "domesticProduction": 113
+    },
+    {
+      "year": "2021",
+      "month": "1",
+      "label": "2021-01",
+      "domesticProduction": 157
+    },
+    {
+      "year": "2021",
+      "month": "2",
+      "label": "2021-02",
+      "domesticProduction": 670
+    },
+    {
+      "year": "2021",
+      "month": "3",
+      "label": "2021-03",
+      "domesticProduction": 155
+    },
+    {
+      "year": "2021",
+      "month": "4",
+      "label": "2021-04",
+      "domesticProduction": 466
+    },
+    {
+      "year": "2021",
+      "month": "5",
+      "label": "2021-05",
+      "domesticProduction": 160
+    },
+    {
+      "year": "2021",
+      "month": "6",
+      "label": "2021-06",
+      "domesticProduction": 870
+    },
+    {
+      "year": "2021",
+      "month": "7",
+      "label": "2021-07",
+      "domesticProduction": 153
+    },
+    {
+      "year": "2021",
+      "month": "8",
+      "label": "2021-08",
+      "domesticProduction": 276
+    },
+    {
+      "year": "2021",
+      "month": "9",
+      "label": "2021-09",
+      "domesticProduction": 162
+    },
+    {
+      "year": "2021",
+      "month": "10",
+      "label": "2021-10",
+      "domesticProduction": 874
+    },
+    {
+      "year": "2021",
+      "month": "11",
+      "label": "2021-11",
+      "domesticProduction": 164
+    },
+    {
+      "year": "2021",
+      "month": "12",
+      "label": "2021-12",
+      "domesticProduction": 360
+    },
+    {
+      "year": "2022",
+      "month": "1",
+      "label": "2022-01",
+      "domesticProduction": 157
+    },
+    {
+      "year": "2022",
+      "month": "2",
+      "label": "2022-02",
+      "domesticProduction": 772
+    },
+    {
+      "year": "2022",
+      "month": "3",
+      "label": "2022-03",
+      "domesticProduction": 170
+    },
+    {
+      "year": "2022",
+      "month": "4",
+      "label": "2022-04",
+      "domesticProduction": 219
+    },
+    {
+      "year": "2022",
+      "month": "5",
+      "label": "2022-05",
+      "domesticProduction": 169
+    },
+    {
+      "year": "2022",
+      "month": "6",
+      "label": "2022-06",
+      "domesticProduction": 865
+    },
+    {
+      "year": "2022",
+      "month": "7",
+      "label": "2022-07",
+      "domesticProduction": 172
+    },
+    {
+      "year": "2022",
+      "month": "8",
+      "label": "2022-08",
+      "domesticProduction": 488
+    },
+    {
+      "year": "2022",
+      "month": "9",
+      "label": "2022-09",
+      "domesticProduction": 163
+    },
+    {
+      "year": "2022",
+      "month": "10",
+      "label": "2022-10",
+      "domesticProduction": 10
+    },
+    {
+      "year": "2022",
+      "month": "11",
+      "label": "2022-11",
+      "domesticProduction": 163
+    },
+    {
+      "year": "2022",
+      "month": "12",
+      "label": "2022-12",
+      "domesticProduction": 663
+    },
+    {
+      "year": "2023",
+      "month": "1",
+      "label": "2023-01",
+      "domesticProduction": 150
+    },
+    {
+      "year": "2023",
+      "month": "2",
+      "label": "2023-02",
+      "domesticProduction": 740
+    },
+    {
+      "year": "2023",
+      "month": "3",
+      "label": "2023-03",
+      "domesticProduction": 150
+    },
+    {
+      "year": "2023",
+      "month": "4",
+      "label": "2023-04",
+      "domesticProduction": 220
+    },
+    {
+      "year": "2023",
+      "month": "5",
+      "label": "2023-05",
+      "domesticProduction": 160
+    },
+    {
+      "year": "2023",
+      "month": "6",
+      "label": "2023-06",
+      "domesticProduction": 353
+    },
+    {
+      "year": "2023",
+      "month": "7",
+      "label": "2023-07",
+      "domesticProduction": 156
+    },
+    {
+      "year": "2023",
+      "month": "8",
+      "label": "2023-08",
+      "domesticProduction": 710
+    },
+    {
+      "year": "2023",
+      "month": "9",
+      "label": "2023-09",
+      "domesticProduction": 162
+    },
+    {
+      "year": "2023",
+      "month": "10",
+      "label": "2023-10",
+      "domesticProduction": 823
+    },
+    {
+      "year": "2023",
+      "month": "11",
+      "label": "2023-11",
+      "domesticProduction": 165
+    },
+    {
+      "year": "2023",
+      "month": "12",
+      "label": "2023-12",
+      "domesticProduction": 404
+    },
+    {
+      "year": "2024",
+      "month": "1",
+      "label": "2024-01",
+      "domesticProduction": 152
+    },
+    {
+      "year": "2024",
+      "month": "2",
+      "label": "2024-02",
+      "domesticProduction": 0
+    },
+    {
+      "year": "2024",
+      "month": "3",
+      "label": "2024-03",
+      "domesticProduction": 175
+    },
+    {
+      "year": "2024",
+      "month": "4",
+      "label": "2024-04",
+      "domesticProduction": 990
+    },
+    {
+      "year": "2024",
+      "month": "5",
+      "label": "2024-05",
+      "domesticProduction": 173
+    },
+    {
+      "year": "2024",
+      "month": "6",
+      "label": "2024-06",
+      "domesticProduction": 616
+    },
+    {
+      "year": "2024",
+      "month": "7",
+      "label": "2024-07",
+      "domesticProduction": 176
+    },
+    {
+      "year": "2024",
+      "month": "8",
+      "label": "2024-08",
+      "domesticProduction": 558
+    },
+    {
+      "year": "2024",
+      "month": "9",
+      "label": "2024-09",
+      "domesticProduction": 162
+    },
+    {
+      "year": "2024",
+      "month": "10",
+      "label": "2024-10",
+      "domesticProduction": 914
+    },
+    {
+      "year": "2024",
+      "month": "11",
+      "label": "2024-11",
+      "domesticProduction": 155
+    },
+    {
+      "year": "2024",
+      "month": "12",
+      "label": "2024-12",
+      "domesticProduction": 566
+    },
+    {
+      "year": "2025",
+      "month": "1",
+      "label": "2025-01",
+      "domesticProduction": 154
+    },
+    {
+      "year": "2025",
+      "month": "2",
+      "label": "2025-02",
+      "domesticProduction": 383
+    },
+    {
+      "year": "2025",
+      "month": "3",
+      "label": "2025-03",
+      "domesticProduction": 153
+    },
+    {
+      "year": "2025",
+      "month": "4",
+      "label": "2025-04",
+      "domesticProduction": 443
+    },
+    {
+      "year": "2025",
+      "month": "5",
+      "label": "2025-05",
+      "domesticProduction": 161
+    },
+    {
+      "year": "2025",
+      "month": "6",
+      "label": "2025-06",
+      "domesticProduction": 887
+    },
+    {
+      "year": "2025",
+      "month": "7",
+      "label": "2025-07",
+      "domesticProduction": 155
+    },
+    {
+      "year": "2025",
+      "month": "8",
+      "label": "2025-08",
+      "domesticProduction": 399
+    },
+    {
+      "year": "2025",
+      "month": "9",
+      "label": "2025-09",
+      "domesticProduction": 163
+    },
+    {
+      "year": "2025",
+      "month": "10",
+      "label": "2025-10",
+      "domesticProduction": 166
+    },
+    {
+      "year": "2025",
+      "month": "11",
+      "label": "2025-11",
+      "domesticProduction": 165
+    },
+    {
+      "year": "2025",
+      "month": "12",
+      "label": "2025-12",
+      "domesticProduction": 649
+    },
+    {
+      "year": "2026",
+      "month": "1",
+      "label": "2026-01",
+      "domesticProduction": 152
+    },
+    {
+      "year": "2026",
+      "month": "2",
+      "label": "2026-02",
+      "domesticProduction": 887
+    },
+    {
+      "year": "2026",
+      "month": "3",
+      "label": "2026-03",
+      "domesticProduction": 173
+    }
+  ],
   "tradeMonthly": [],
   "alerts": [
     {
@@ -1057,6 +1580,10 @@
     {
       "level": "danger",
       "message": "착유우 두수 감소 중 (189두, 전분기比 -67.2%) → 장기 공급 감소 우려"
+    },
+    {
+      "level": "success",
+      "message": "국내 원유 생산 전년比 +13.1% 증가 (173톤)"
     }
   ],
   "uploadLog": [
@@ -1077,6 +1604,12 @@
       "fileName": "가축사육통계 (1).csv",
       "count": 28,
       "time": "2026. 6. 15. 오후 1:44:14"
+    },
+    {
+      "key": "supplyMonthly",
+      "fileName": "원유수급개황.csv",
+      "count": 87,
+      "time": "2026. 6. 15. 오후 1:44:20"
     }
   ],
   "kpi": {

@@ -1,0 +1,571 @@
+{
+  "productionMonthly": [
+    {
+      "year": "2019",
+      "month": "1",
+      "label": "2019-01",
+      "rawMilkTon": 160
+    },
+    {
+      "year": "2019",
+      "month": "2",
+      "label": "2019-02",
+      "rawMilkTon": 783
+    },
+    {
+      "year": "2019",
+      "month": "3",
+      "label": "2019-03",
+      "rawMilkTon": 157
+    },
+    {
+      "year": "2019",
+      "month": "4",
+      "label": "2019-04",
+      "rawMilkTon": 1
+    },
+    {
+      "year": "2019",
+      "month": "5",
+      "label": "2019-05",
+      "rawMilkTon": 162
+    },
+    {
+      "year": "2019",
+      "month": "6",
+      "label": "2019-06",
+      "rawMilkTon": 866
+    },
+    {
+      "year": "2019",
+      "month": "7",
+      "label": "2019-07",
+      "rawMilkTon": 156
+    },
+    {
+      "year": "2019",
+      "month": "8",
+      "label": "2019-08",
+      "rawMilkTon": 199
+    },
+    {
+      "year": "2019",
+      "month": "9",
+      "label": "2019-09",
+      "rawMilkTon": 161
+    },
+    {
+      "year": "2019",
+      "month": "10",
+      "label": "2019-10",
+      "rawMilkTon": 727
+    },
+    {
+      "year": "2019",
+      "month": "11",
+      "label": "2019-11",
+      "rawMilkTon": 162
+    },
+    {
+      "year": "2019",
+      "month": "12",
+      "label": "2019-12",
+      "rawMilkTon": 135
+    },
+    {
+      "year": "2020",
+      "month": "1",
+      "label": "2020-01",
+      "rawMilkTon": 150
+    },
+    {
+      "year": "2020",
+      "month": "2",
+      "label": "2020-02",
+      "rawMilkTon": 347
+    },
+    {
+      "year": "2020",
+      "month": "3",
+      "label": "2020-03",
+      "rawMilkTon": 170
+    },
+    {
+      "year": "2020",
+      "month": "4",
+      "label": "2020-04",
+      "rawMilkTon": 958
+    },
+    {
+      "year": "2020",
+      "month": "5",
+      "label": "2020-05",
+      "rawMilkTon": 166
+    },
+    {
+      "year": "2020",
+      "month": "6",
+      "label": "2020-06",
+      "rawMilkTon": 134
+    },
+    {
+      "year": "2020",
+      "month": "7",
+      "label": "2020-07",
+      "rawMilkTon": 169
+    },
+    {
+      "year": "2020",
+      "month": "8",
+      "label": "2020-08",
+      "rawMilkTon": 838
+    },
+    {
+      "year": "2020",
+      "month": "9",
+      "label": "2020-09",
+      "rawMilkTon": 159
+    },
+    {
+      "year": "2020",
+      "month": "10",
+      "label": "2020-10",
+      "rawMilkTon": 379
+    },
+    {
+      "year": "2020",
+      "month": "11",
+      "label": "2020-11",
+      "rawMilkTon": 161
+    },
+    {
+      "year": "2020",
+      "month": "12",
+      "label": "2020-12",
+      "rawMilkTon": 113
+    },
+    {
+      "year": "2021",
+      "month": "1",
+      "label": "2021-01",
+      "rawMilkTon": 157
+    },
+    {
+      "year": "2021",
+      "month": "2",
+      "label": "2021-02",
+      "rawMilkTon": 670
+    },
+    {
+      "year": "2021",
+      "month": "3",
+      "label": "2021-03",
+      "rawMilkTon": 155
+    },
+    {
+      "year": "2021",
+      "month": "4",
+      "label": "2021-04",
+      "rawMilkTon": 466
+    },
+    {
+      "year": "2021",
+      "month": "5",
+      "label": "2021-05",
+      "rawMilkTon": 160
+    },
+    {
+      "year": "2021",
+      "month": "6",
+      "label": "2021-06",
+      "rawMilkTon": 870
+    },
+    {
+      "year": "2021",
+      "month": "7",
+      "label": "2021-07",
+      "rawMilkTon": 153
+    },
+    {
+      "year": "2021",
+      "month": "8",
+      "label": "2021-08",
+      "rawMilkTon": 276
+    },
+    {
+      "year": "2021",
+      "month": "9",
+      "label": "2021-09",
+      "rawMilkTon": 162
+    },
+    {
+      "year": "2021",
+      "month": "10",
+      "label": "2021-10",
+      "rawMilkTon": 874
+    },
+    {
+      "year": "2021",
+      "month": "11",
+      "label": "2021-11",
+      "rawMilkTon": 164
+    },
+    {
+      "year": "2021",
+      "month": "12",
+      "label": "2021-12",
+      "rawMilkTon": 360
+    },
+    {
+      "year": "2022",
+      "month": "1",
+      "label": "2022-01",
+      "rawMilkTon": 157
+    },
+    {
+      "year": "2022",
+      "month": "2",
+      "label": "2022-02",
+      "rawMilkTon": 772
+    },
+    {
+      "year": "2022",
+      "month": "3",
+      "label": "2022-03",
+      "rawMilkTon": 170
+    },
+    {
+      "year": "2022",
+      "month": "4",
+      "label": "2022-04",
+      "rawMilkTon": 219
+    },
+    {
+      "year": "2022",
+      "month": "5",
+      "label": "2022-05",
+      "rawMilkTon": 169
+    },
+    {
+      "year": "2022",
+      "month": "6",
+      "label": "2022-06",
+      "rawMilkTon": 865
+    },
+    {
+      "year": "2022",
+      "month": "7",
+      "label": "2022-07",
+      "rawMilkTon": 172
+    },
+    {
+      "year": "2022",
+      "month": "8",
+      "label": "2022-08",
+      "rawMilkTon": 488
+    },
+    {
+      "year": "2022",
+      "month": "9",
+      "label": "2022-09",
+      "rawMilkTon": 163
+    },
+    {
+      "year": "2022",
+      "month": "10",
+      "label": "2022-10",
+      "rawMilkTon": 10
+    },
+    {
+      "year": "2022",
+      "month": "11",
+      "label": "2022-11",
+      "rawMilkTon": 163
+    },
+    {
+      "year": "2022",
+      "month": "12",
+      "label": "2022-12",
+      "rawMilkTon": 663
+    },
+    {
+      "year": "2023",
+      "month": "1",
+      "label": "2023-01",
+      "rawMilkTon": 150
+    },
+    {
+      "year": "2023",
+      "month": "2",
+      "label": "2023-02",
+      "rawMilkTon": 740
+    },
+    {
+      "year": "2023",
+      "month": "3",
+      "label": "2023-03",
+      "rawMilkTon": 150
+    },
+    {
+      "year": "2023",
+      "month": "4",
+      "label": "2023-04",
+      "rawMilkTon": 220
+    },
+    {
+      "year": "2023",
+      "month": "5",
+      "label": "2023-05",
+      "rawMilkTon": 160
+    },
+    {
+      "year": "2023",
+      "month": "6",
+      "label": "2023-06",
+      "rawMilkTon": 353
+    },
+    {
+      "year": "2023",
+      "month": "7",
+      "label": "2023-07",
+      "rawMilkTon": 156
+    },
+    {
+      "year": "2023",
+      "month": "8",
+      "label": "2023-08",
+      "rawMilkTon": 710
+    },
+    {
+      "year": "2023",
+      "month": "9",
+      "label": "2023-09",
+      "rawMilkTon": 162
+    },
+    {
+      "year": "2023",
+      "month": "10",
+      "label": "2023-10",
+      "rawMilkTon": 823
+    },
+    {
+      "year": "2023",
+      "month": "11",
+      "label": "2023-11",
+      "rawMilkTon": 165
+    },
+    {
+      "year": "2023",
+      "month": "12",
+      "label": "2023-12",
+      "rawMilkTon": 404
+    },
+    {
+      "year": "2024",
+      "month": "1",
+      "label": "2024-01",
+      "rawMilkTon": 152
+    },
+    {
+      "year": "2024",
+      "month": "2",
+      "label": "2024-02",
+      "rawMilkTon": 0
+    },
+    {
+      "year": "2024",
+      "month": "3",
+      "label": "2024-03",
+      "rawMilkTon": 175
+    },
+    {
+      "year": "2024",
+      "month": "4",
+      "label": "2024-04",
+      "rawMilkTon": 990
+    },
+    {
+      "year": "2024",
+      "month": "5",
+      "label": "2024-05",
+      "rawMilkTon": 173
+    },
+    {
+      "year": "2024",
+      "month": "6",
+      "label": "2024-06",
+      "rawMilkTon": 616
+    },
+    {
+      "year": "2024",
+      "month": "7",
+      "label": "2024-07",
+      "rawMilkTon": 176
+    },
+    {
+      "year": "2024",
+      "month": "8",
+      "label": "2024-08",
+      "rawMilkTon": 558
+    },
+    {
+      "year": "2024",
+      "month": "9",
+      "label": "2024-09",
+      "rawMilkTon": 162
+    },
+    {
+      "year": "2024",
+      "month": "10",
+      "label": "2024-10",
+      "rawMilkTon": 914
+    },
+    {
+      "year": "2024",
+      "month": "11",
+      "label": "2024-11",
+      "rawMilkTon": 155
+    },
+    {
+      "year": "2024",
+      "month": "12",
+      "label": "2024-12",
+      "rawMilkTon": 566
+    },
+    {
+      "year": "2025",
+      "month": "1",
+      "label": "2025-01",
+      "rawMilkTon": 154
+    },
+    {
+      "year": "2025",
+      "month": "2",
+      "label": "2025-02",
+      "rawMilkTon": 383
+    },
+    {
+      "year": "2025",
+      "month": "3",
+      "label": "2025-03",
+      "rawMilkTon": 153
+    },
+    {
+      "year": "2025",
+      "month": "4",
+      "label": "2025-04",
+      "rawMilkTon": 443
+    },
+    {
+      "year": "2025",
+      "month": "5",
+      "label": "2025-05",
+      "rawMilkTon": 161
+    },
+    {
+      "year": "2025",
+      "month": "6",
+      "label": "2025-06",
+      "rawMilkTon": 887
+    },
+    {
+      "year": "2025",
+      "month": "7",
+      "label": "2025-07",
+      "rawMilkTon": 155
+    },
+    {
+      "year": "2025",
+      "month": "8",
+      "label": "2025-08",
+      "rawMilkTon": 399
+    },
+    {
+      "year": "2025",
+      "month": "9",
+      "label": "2025-09",
+      "rawMilkTon": 163
+    },
+    {
+      "year": "2025",
+      "month": "10",
+      "label": "2025-10",
+      "rawMilkTon": 166
+    },
+    {
+      "year": "2025",
+      "month": "11",
+      "label": "2025-11",
+      "rawMilkTon": 165
+    },
+    {
+      "year": "2025",
+      "month": "12",
+      "label": "2025-12",
+      "rawMilkTon": 649
+    },
+    {
+      "year": "2026",
+      "month": "1",
+      "label": "2026-01",
+      "rawMilkTon": 152
+    },
+    {
+      "year": "2026",
+      "month": "2",
+      "label": "2026-02",
+      "rawMilkTon": 887
+    },
+    {
+      "year": "2026",
+      "month": "3",
+      "label": "2026-03",
+      "rawMilkTon": 173
+    }
+  ],
+  "priceMonthly": [],
+  "livestockQuarterly": [],
+  "supplyMonthly": [],
+  "tradeMonthly": [],
+  "alerts": [
+    {
+      "level": "warning",
+      "message": "원유 생산량 등락 반복 중 (최근: 173톤 (YoY 13.1%))"
+    }
+  ],
+  "uploadLog": [
+    {
+      "key": "productionMonthly",
+      "fileName": "원유생산통계.csv",
+      "count": 87,
+      "time": "2026. 6. 15. 오후 1:43:56"
+    }
+  ],
+  "kpi": {
+    "milkProduction": {
+      "value": "173",
+      "unit": "톤",
+      "yoy": 13.1,
+      "sub": "기준: 2026-03"
+    },
+    "rawMilkPrice": {
+      "value": "-",
+      "unit": "원/kg",
+      "yoy": 0,
+      "sub": ""
+    },
+    "cowCount": {
+      "value": "-",
+      "unit": "두(착유우)",
+      "yoy": 0,
+      "sub": ""
+    },
+    "farmCount": {
+      "value": "-",
+      "unit": "호",
+      "yoy": 0,
+      "sub": ""
+    }
+  },
+  "lastUpdated": "2026년 6월"
+}

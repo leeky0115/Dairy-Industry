@@ -1567,7 +1567,764 @@
       "domesticProduction": 173
     }
   ],
-  "tradeMonthly": [],
+  "tradeMonthly": [
+    {
+      "year": "2019",
+      "month": "1",
+      "label": "2019-01",
+      "total": 180,
+      "milkCream": 129,
+      "skimMilk": 1,
+      "wholeMilk": 584
+    },
+    {
+      "year": "2019",
+      "month": "2",
+      "label": "2019-02",
+      "total": 39,
+      "milkCream": 8,
+      "skimMilk": 397,
+      "wholeMilk": 341
+    },
+    {
+      "year": "2019",
+      "month": "3",
+      "label": "2019-03",
+      "total": 87,
+      "milkCream": 987,
+      "skimMilk": 1,
+      "wholeMilk": 323
+    },
+    {
+      "year": "2019",
+      "month": "4",
+      "label": "2019-04",
+      "total": 37,
+      "milkCream": 7,
+      "skimMilk": 295,
+      "wholeMilk": 402
+    },
+    {
+      "year": "2019",
+      "month": "5",
+      "label": "2019-05",
+      "total": 347,
+      "milkCream": 316,
+      "skimMilk": 1,
+      "wholeMilk": 210
+    },
+    {
+      "year": "2019",
+      "month": "6",
+      "label": "2019-06",
+      "total": 32,
+      "milkCream": 6,
+      "skimMilk": 496,
+      "wholeMilk": 528
+    },
+    {
+      "year": "2019",
+      "month": "7",
+      "label": "2019-07",
+      "total": 120,
+      "milkCream": 606,
+      "skimMilk": 1,
+      "wholeMilk": 266
+    },
+    {
+      "year": "2019",
+      "month": "8",
+      "label": "2019-08",
+      "total": 31,
+      "milkCream": 6,
+      "skimMilk": 338,
+      "wholeMilk": 392
+    },
+    {
+      "year": "2019",
+      "month": "9",
+      "label": "2019-09",
+      "total": 88,
+      "milkCream": 120,
+      "skimMilk": 1,
+      "wholeMilk": 616
+    },
+    {
+      "year": "2019",
+      "month": "10",
+      "label": "2019-10",
+      "total": 29,
+      "milkCream": 5,
+      "skimMilk": 144,
+      "wholeMilk": 617
+    },
+    {
+      "year": "2019",
+      "month": "11",
+      "label": "2019-11",
+      "total": 494,
+      "milkCream": 498,
+      "skimMilk": 1,
+      "wholeMilk": 351
+    },
+    {
+      "year": "2019",
+      "month": "12",
+      "label": "2019-12",
+      "total": 31,
+      "milkCream": 6,
+      "skimMilk": 213,
+      "wholeMilk": 618
+    },
+    {
+      "year": "2020",
+      "month": "1",
+      "label": "2020-01",
+      "total": 759,
+      "milkCream": 738,
+      "skimMilk": 1,
+      "wholeMilk": 726
+    },
+    {
+      "year": "2020",
+      "month": "2",
+      "label": "2020-02",
+      "total": 31,
+      "milkCream": 5,
+      "skimMilk": 811,
+      "wholeMilk": 268
+    },
+    {
+      "year": "2020",
+      "month": "3",
+      "label": "2020-03",
+      "total": 126,
+      "milkCream": 686,
+      "skimMilk": 727,
+      "wholeMilk": 438
+    },
+    {
+      "year": "2020",
+      "month": "4",
+      "label": "2020-04",
+      "total": 30,
+      "milkCream": 5,
+      "skimMilk": 486,
+      "wholeMilk": 456
+    },
+    {
+      "year": "2020",
+      "month": "5",
+      "label": "2020-05",
+      "total": 861,
+      "milkCream": 596,
+      "skimMilk": 1,
+      "wholeMilk": 117
+    },
+    {
+      "year": "2020",
+      "month": "6",
+      "label": "2020-06",
+      "total": 31,
+      "milkCream": 6,
+      "skimMilk": 786,
+      "wholeMilk": 411
+    },
+    {
+      "year": "2020",
+      "month": "7",
+      "label": "2020-07",
+      "total": 382,
+      "milkCream": 108,
+      "skimMilk": 218,
+      "wholeMilk": 261
+    },
+    {
+      "year": "2020",
+      "month": "8",
+      "label": "2020-08",
+      "total": 33,
+      "milkCream": 7,
+      "skimMilk": 1,
+      "wholeMilk": 649
+    },
+    {
+      "year": "2020",
+      "month": "9",
+      "label": "2020-09",
+      "total": 75,
+      "milkCream": 787,
+      "skimMilk": 751,
+      "wholeMilk": 534
+    },
+    {
+      "year": "2020",
+      "month": "10",
+      "label": "2020-10",
+      "total": 34,
+      "milkCream": 9,
+      "skimMilk": 463,
+      "wholeMilk": 573
+    },
+    {
+      "year": "2020",
+      "month": "11",
+      "label": "2020-11",
+      "total": 566,
+      "milkCream": 733,
+      "skimMilk": 1,
+      "wholeMilk": 464
+    },
+    {
+      "year": "2020",
+      "month": "12",
+      "label": "2020-12",
+      "total": 31,
+      "milkCream": 6,
+      "skimMilk": 302,
+      "wholeMilk": 348
+    },
+    {
+      "year": "2021",
+      "month": "1",
+      "label": "2021-01",
+      "total": 279,
+      "milkCream": 501,
+      "skimMilk": 1,
+      "wholeMilk": 450
+    },
+    {
+      "year": "2021",
+      "month": "2",
+      "label": "2021-02",
+      "total": 32,
+      "milkCream": 7,
+      "skimMilk": 229,
+      "wholeMilk": 305
+    },
+    {
+      "year": "2021",
+      "month": "3",
+      "label": "2021-03",
+      "total": 860,
+      "milkCream": 697,
+      "skimMilk": 2,
+      "wholeMilk": 389
+    },
+    {
+      "year": "2021",
+      "month": "4",
+      "label": "2021-04",
+      "total": 33,
+      "milkCream": 6,
+      "skimMilk": 77,
+      "wholeMilk": 264
+    },
+    {
+      "year": "2021",
+      "month": "5",
+      "label": "2021-05",
+      "total": 589,
+      "milkCream": 673,
+      "skimMilk": 1,
+      "wholeMilk": 473
+    },
+    {
+      "year": "2021",
+      "month": "6",
+      "label": "2021-06",
+      "total": 31,
+      "milkCream": 5,
+      "skimMilk": 230,
+      "wholeMilk": 363
+    },
+    {
+      "year": "2021",
+      "month": "7",
+      "label": "2021-07",
+      "total": 683,
+      "milkCream": 200,
+      "skimMilk": 1,
+      "wholeMilk": 269
+    },
+    {
+      "year": "2021",
+      "month": "8",
+      "label": "2021-08",
+      "total": 29,
+      "milkCream": 5,
+      "skimMilk": 295,
+      "wholeMilk": 397
+    },
+    {
+      "year": "2021",
+      "month": "9",
+      "label": "2021-09",
+      "total": 127,
+      "milkCream": 287,
+      "skimMilk": 1,
+      "wholeMilk": 298
+    },
+    {
+      "year": "2021",
+      "month": "10",
+      "label": "2021-10",
+      "total": 41,
+      "milkCream": 6,
+      "skimMilk": 946,
+      "wholeMilk": 415
+    },
+    {
+      "year": "2021",
+      "month": "11",
+      "label": "2021-11",
+      "total": 606,
+      "milkCream": 788,
+      "skimMilk": 228,
+      "wholeMilk": 574
+    },
+    {
+      "year": "2021",
+      "month": "12",
+      "label": "2021-12",
+      "total": 39,
+      "milkCream": 6,
+      "skimMilk": 1,
+      "wholeMilk": 520
+    },
+    {
+      "year": "2022",
+      "month": "1",
+      "label": "2022-01",
+      "total": 765,
+      "milkCream": 941,
+      "skimMilk": 623,
+      "wholeMilk": 646
+    },
+    {
+      "year": "2022",
+      "month": "2",
+      "label": "2022-02",
+      "total": 24,
+      "milkCream": 6,
+      "skimMilk": 516,
+      "wholeMilk": 572
+    },
+    {
+      "year": "2022",
+      "month": "3",
+      "label": "2022-03",
+      "total": 893,
+      "milkCream": 242,
+      "skimMilk": 31,
+      "wholeMilk": 494
+    },
+    {
+      "year": "2022",
+      "month": "4",
+      "label": "2022-04",
+      "total": 22,
+      "milkCream": 5,
+      "skimMilk": 2,
+      "wholeMilk": 557
+    },
+    {
+      "year": "2022",
+      "month": "5",
+      "label": "2022-05",
+      "total": 402,
+      "milkCream": 506,
+      "skimMilk": 437,
+      "wholeMilk": 442
+    },
+    {
+      "year": "2022",
+      "month": "6",
+      "label": "2022-06",
+      "total": 32,
+      "milkCream": 8,
+      "skimMilk": 329,
+      "wholeMilk": 891
+    },
+    {
+      "year": "2022",
+      "month": "7",
+      "label": "2022-07",
+      "total": 682,
+      "milkCream": 707,
+      "skimMilk": 597,
+      "wholeMilk": 879
+    },
+    {
+      "year": "2022",
+      "month": "8",
+      "label": "2022-08",
+      "total": 35,
+      "milkCream": 10,
+      "skimMilk": 862,
+      "wholeMilk": 226
+    },
+    {
+      "year": "2022",
+      "month": "9",
+      "label": "2022-09",
+      "total": 266,
+      "milkCream": 911,
+      "skimMilk": 642,
+      "wholeMilk": 471
+    },
+    {
+      "year": "2022",
+      "month": "10",
+      "label": "2022-10",
+      "total": 34,
+      "milkCream": 8,
+      "skimMilk": 847,
+      "wholeMilk": 523
+    },
+    {
+      "year": "2022",
+      "month": "11",
+      "label": "2022-11",
+      "total": 776,
+      "milkCream": 914,
+      "skimMilk": 840,
+      "wholeMilk": 635
+    },
+    {
+      "year": "2022",
+      "month": "12",
+      "label": "2022-12",
+      "total": 31,
+      "milkCream": 7,
+      "skimMilk": 402,
+      "wholeMilk": 425
+    },
+    {
+      "year": "2023",
+      "month": "1",
+      "label": "2023-01",
+      "total": 677,
+      "milkCream": 578,
+      "skimMilk": 581,
+      "wholeMilk": 267
+    },
+    {
+      "year": "2023",
+      "month": "2",
+      "label": "2023-02",
+      "total": 41,
+      "milkCream": 11,
+      "skimMilk": 772,
+      "wholeMilk": 309
+    },
+    {
+      "year": "2023",
+      "month": "3",
+      "label": "2023-03",
+      "total": 799,
+      "milkCream": 343,
+      "skimMilk": 940,
+      "wholeMilk": 367
+    },
+    {
+      "year": "2023",
+      "month": "4",
+      "label": "2023-04",
+      "total": 31,
+      "milkCream": 7,
+      "skimMilk": 232,
+      "wholeMilk": 220
+    },
+    {
+      "year": "2023",
+      "month": "5",
+      "label": "2023-05",
+      "total": 201,
+      "milkCream": 395,
+      "skimMilk": 1,
+      "wholeMilk": 632
+    },
+    {
+      "year": "2023",
+      "month": "6",
+      "label": "2023-06",
+      "total": 29,
+      "milkCream": 5,
+      "skimMilk": 670,
+      "wholeMilk": 372
+    },
+    {
+      "year": "2023",
+      "month": "7",
+      "label": "2023-07",
+      "total": 565,
+      "milkCream": 686,
+      "skimMilk": 746,
+      "wholeMilk": 385
+    },
+    {
+      "year": "2023",
+      "month": "8",
+      "label": "2023-08",
+      "total": 34,
+      "milkCream": 7,
+      "skimMilk": 76,
+      "wholeMilk": 275
+    },
+    {
+      "year": "2023",
+      "month": "9",
+      "label": "2023-09",
+      "total": 558,
+      "milkCream": 186,
+      "skimMilk": 1,
+      "wholeMilk": 454
+    },
+    {
+      "year": "2023",
+      "month": "10",
+      "label": "2023-10",
+      "total": 26,
+      "milkCream": 5,
+      "skimMilk": 312,
+      "wholeMilk": 658
+    },
+    {
+      "year": "2023",
+      "month": "11",
+      "label": "2023-11",
+      "total": 354,
+      "milkCream": 540,
+      "skimMilk": 1,
+      "wholeMilk": 658
+    },
+    {
+      "year": "2023",
+      "month": "12",
+      "label": "2023-12",
+      "total": 28,
+      "milkCream": 5,
+      "skimMilk": 640,
+      "wholeMilk": 314
+    },
+    {
+      "year": "2024",
+      "month": "1",
+      "label": "2024-01",
+      "total": 77,
+      "milkCream": 523,
+      "skimMilk": 650,
+      "wholeMilk": 648
+    },
+    {
+      "year": "2024",
+      "month": "2",
+      "label": "2024-02",
+      "total": 30,
+      "milkCream": 6,
+      "skimMilk": 222,
+      "wholeMilk": 511
+    },
+    {
+      "year": "2024",
+      "month": "3",
+      "label": "2024-03",
+      "total": 757,
+      "milkCream": 804,
+      "skimMilk": 1,
+      "wholeMilk": 446
+    },
+    {
+      "year": "2024",
+      "month": "4",
+      "label": "2024-04",
+      "total": 32,
+      "milkCream": 4,
+      "skimMilk": 0,
+      "wholeMilk": 513
+    },
+    {
+      "year": "2024",
+      "month": "5",
+      "label": "2024-05",
+      "total": 707,
+      "milkCream": 620,
+      "skimMilk": 1,
+      "wholeMilk": 651
+    },
+    {
+      "year": "2024",
+      "month": "6",
+      "label": "2024-06",
+      "total": 32,
+      "milkCream": 5,
+      "skimMilk": 692,
+      "wholeMilk": 719
+    },
+    {
+      "year": "2024",
+      "month": "7",
+      "label": "2024-07",
+      "total": 63,
+      "milkCream": 621,
+      "skimMilk": 73,
+      "wholeMilk": 73
+    },
+    {
+      "year": "2024",
+      "month": "8",
+      "label": "2024-08",
+      "total": 36,
+      "milkCream": 7,
+      "skimMilk": 1,
+      "wholeMilk": 827
+    },
+    {
+      "year": "2024",
+      "month": "9",
+      "label": "2024-09",
+      "total": 262,
+      "milkCream": 224,
+      "skimMilk": 26,
+      "wholeMilk": 433
+    },
+    {
+      "year": "2024",
+      "month": "10",
+      "label": "2024-10",
+      "total": 35,
+      "milkCream": 8,
+      "skimMilk": 1,
+      "wholeMilk": 919
+    },
+    {
+      "year": "2024",
+      "month": "11",
+      "label": "2024-11",
+      "total": 223,
+      "milkCream": 489,
+      "skimMilk": 635,
+      "wholeMilk": 857
+    },
+    {
+      "year": "2024",
+      "month": "12",
+      "label": "2024-12",
+      "total": 33,
+      "milkCream": 7,
+      "skimMilk": 830,
+      "wholeMilk": 436
+    },
+    {
+      "year": "2025",
+      "month": "1",
+      "label": "2025-01",
+      "total": 737,
+      "milkCream": 342,
+      "skimMilk": 471,
+      "wholeMilk": 576
+    },
+    {
+      "year": "2025",
+      "month": "2",
+      "label": "2025-02",
+      "total": 42,
+      "milkCream": 9,
+      "skimMilk": 1,
+      "wholeMilk": 75
+    },
+    {
+      "year": "2025",
+      "month": "3",
+      "label": "2025-03",
+      "total": 954,
+      "milkCream": 296,
+      "skimMilk": 614,
+      "wholeMilk": 1
+    },
+    {
+      "year": "2025",
+      "month": "4",
+      "label": "2025-04",
+      "total": 37,
+      "milkCream": 8,
+      "skimMilk": 926,
+      "wholeMilk": 713
+    },
+    {
+      "year": "2025",
+      "month": "5",
+      "label": "2025-05",
+      "total": 601,
+      "milkCream": 998,
+      "skimMilk": 866,
+      "wholeMilk": 937
+    },
+    {
+      "year": "2025",
+      "month": "6",
+      "label": "2025-06",
+      "total": 44,
+      "milkCream": 12,
+      "skimMilk": 682,
+      "wholeMilk": 615
+    },
+    {
+      "year": "2025",
+      "month": "7",
+      "label": "2025-07",
+      "total": 42,
+      "milkCream": 477,
+      "skimMilk": 598,
+      "wholeMilk": 788
+    },
+    {
+      "year": "2025",
+      "month": "8",
+      "label": "2025-08",
+      "total": 29,
+      "milkCream": 5,
+      "skimMilk": 382,
+      "wholeMilk": 558
+    },
+    {
+      "year": "2025",
+      "month": "9",
+      "label": "2025-09",
+      "total": 101,
+      "milkCream": 420,
+      "skimMilk": 811,
+      "wholeMilk": 494
+    },
+    {
+      "year": "2025",
+      "month": "10",
+      "label": "2025-10",
+      "total": 32,
+      "milkCream": 10,
+      "skimMilk": 904,
+      "wholeMilk": 402
+    },
+    {
+      "year": "2025",
+      "month": "11",
+      "label": "2025-11",
+      "total": 47,
+      "milkCream": 143,
+      "skimMilk": 930,
+      "wholeMilk": 501
+    },
+    {
+      "year": "2025",
+      "month": "12",
+      "label": "2025-12",
+      "total": 34,
+      "milkCream": 8,
+      "skimMilk": 978,
+      "wholeMilk": 637
+    }
+  ],
   "alerts": [
     {
       "level": "warning",
@@ -1610,6 +2367,12 @@
       "fileName": "원유수급개황.csv",
       "count": 87,
       "time": "2026. 6. 15. 오후 1:44:20"
+    },
+    {
+      "key": "tradeMonthly",
+      "fileName": "품목별수출입(신분류).csv",
+      "count": 84,
+      "time": "2026. 6. 15. 오후 1:44:26"
     }
   ],
   "kpi": {

@@ -14,7 +14,7 @@ import CsvUploader from './components/CsvUploader';
 const QUARTER_TABS = ['livestock'];
 
 function App() {
-  const { state } = useData();
+  const { state, uploading } = useData();
   const [activeTab, setActiveTab] = useState('overview');
   const [selectedYear, setSelectedYear] = useState('전체');
   const [selectedMonth, setSelectedMonth] = useState('전체');
@@ -57,7 +57,7 @@ function App() {
         <h1 style={{ fontSize: '20px', fontWeight: '500', margin: '0', color: '#111827' }}>🥛 낙농 통계 대시보드</h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '12px', color: '#6b7280' }}>마지막 갱신: {state.lastUpdated || '-'}</span>
-          <span style={{ background: state.alerts?.length > 0 ? '#f0fdf4' : '#f9fafb', color: '#059669', fontSize: '12px', padding: '4px 10px', borderRadius: '6px' }}>● {state.alerts?.length > 0 ? '데이터 로드됨' : '데이터 없음'}</span>
+          <span style={{ background: state.alerts?.length > 0 ? '#f0fdf4' : '#f9fafb', color: '#059669', fontSize: '12px', padding: '4px 10px', borderRadius: '6px' }}>● {uploading ? 'GitHub 저장 중...': state.alerts?.length > 0 ? '데이터 로드됨' : '데이터 없음'}</span>
         </div>
       </div>
       <TabNav activeTab={activeTab} onTabChange={setActiveTab} />

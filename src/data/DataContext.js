@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
+import { uploadToGitHub } from '../utils/githubUpload';
 
 const DataContext = createContext();
 
@@ -251,23 +252,34 @@ const initialState = {
 
 export function DataProvider({ children }) {
   const [state, setState] = useState(initialState);
+  const [uploading, setUploading] = useState(false);
 
   const uploadCSV = useCallback((key, file) => {
     const reader = new FileReader();
-    reader.onload = (e) => {
+    reader.onload = async (e) => {
       try {
         const rows = parseCSVText(e.target.result);
         const transformed = transformData(key, rows);
-        console.log(`[${key}] 파싱 결과: ${transformed.length}건`, transformed.slice(0, 2));
+        console.log(`[${key}] 파싱 결과: ${transformed.length}건`);
+
         setState(prev => {
           const next = { ...prev, [key]: transformed };
           next.alerts = generateAlerts(next);
           next.kpi = calcKpi(next);
+          next.lastUpdated = new Date().toLocaleDateString('ko-KR', { year: 'numeric', month: '2-digit' }).replace('. ', '.').replace('.', '년 ').replace('.', '월').trim();
           next.uploadLog = [...(prev.uploadLog || []), {
             key, fileName: file.name,
             count: transformed.length,
             time: new Date().toLocaleString('ko-KR')
           }];
+
+          // GitHub에 저장
+          setUploading(true);
+          uploadToGitHub(next).then(success => {
+            setUploading(false);
+            if (success) console.log('GitHub 저장 완료!');
+          });
+
           return next;
         });
       } catch (err) {
@@ -278,7 +290,7 @@ export function DataProvider({ children }) {
   }, []);
 
   return (
-    <DataContext.Provider value={{ state, uploadCSV }}>
+    <DataContext.Provider value={{ state, uploadCSV, uploading }}>
       {children}
     </DataContext.Provider>
   );
